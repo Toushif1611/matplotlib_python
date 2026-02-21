@@ -24,7 +24,7 @@ ax = fig.add_subplot(111, projection='3d')
 
 ax.plot_surface(X, Y, Z, cmap='viridis')
 
-ax.view_init(elev=90, azim=90)
+ax.view_init(elev=30, azim=45)
 
 # Slider
 ax.set_xlabel("X")
